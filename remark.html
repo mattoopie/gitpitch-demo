@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>remark demo</title>
+    <meta charset="utf-8">
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+        @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+        @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+        body {
+            font-family: 'Droid Serif';
+        }
+
+        h1, h2, h3 {
+            font-family: 'Yanone Kaffeesatz';
+            font-weight: normal;
+        }
+
+        .remark-code, .remark-inline-code {
+            font-family: 'Ubuntu Mono';
+        }
+
+        .cyan {
+            color: cyan;
+        }
+    </style>
+</head>
+<body>
+<textarea id="source">
+
+class: center, middle
+
+# remark
+
+.bottom.center[![remark logo](images/remark_logo.jpg)]
+
+
+---
+
+# Inhoud
+
+* remark vs GitPitch
+* Slides maken
+* Code in slides
+* Slide templates
+* Slide layouts
+---
+
+# remark vs GitPitch
+
+* Volledig open source (MIT)
+* Gratis
+* Zelf hosten
+* .cyan[Eenvoudigere formatting]
+* Minder features
+
+---
+# Slides maken
+
+```markdown
+---
+
+# remark vs GitPitch
+
+ * Volledig open source (MIT)
+ * Gratis
+ * Zelf hosten
+ * .cyan[Eenvoudigere formatting]
+ * Minder features
+
+---
+```
+
+---
+# Code in slides
+```kotlin
+fun main() {
+    println(10)
+}
+```
+```kotlin
+fun main() {
+*    println(10)
+}
+```
+---
+name: template-header
+
+# Slide templates
+.right[Tekst uit template]
+---
+template: template-header
+Onderdelen van een slide hergebruiken
+---
+layout:true
+
+# Slide layouts
+.right[Tekst uit layout]
+---
+Onderdelen van een slide hergebruiken
+---
+layout: false
+
+</textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js">
+</script>
+<script>
+    var slideshow = remark.create({
+        highlightLines: true
+    });
+</script>
+</body>
+</html>
