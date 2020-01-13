@@ -85,7 +85,7 @@ Een video van YouTube afspelen
 ![Video](https://www.youtube.com/embed/3Kyre8R0DtI)
 
 ---
-<canvas data-chart="bar" data-chart-src="src/data.csv">
+<canvas data-chart="bar" data-chart-src="/src/data.csv">
 <!-- 
 {
 "data" : {
