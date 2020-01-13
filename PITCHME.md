@@ -85,7 +85,10 @@ Een video van YouTube afspelen
 ![Video](https://www.youtube.com/embed/3Kyre8R0DtI)
 
 ---
-<canvas data-chart="bar" data-chart-src="/src/data.csv">
+<canvas data-chart="bar">
+Month,January,February,March,April,May,June,July
+A    ,6      ,5       ,7    ,8    ,9  ,12  ,18
+B    ,6      ,5       ,7    ,8    ,3  ,2   ,1
 <!-- 
 {
 "data" : {
