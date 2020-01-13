@@ -1,5 +1,5 @@
 @snap[midpoint]
-![IMAGE](images/logo.png)
+<img src="images/logo.png" width="251" height="59" alt="GitPitch logo" style="border:unset; background:unset; box-shadow:unset;"/>
 @snapend
 
 ---
