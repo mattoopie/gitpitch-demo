@@ -22,7 +22,7 @@
 * Markdown
 * Thema's
 * Op ontwikkelaars gericht
-* 
+* Betaalde features
 ---
 @snap[north-west]
 ## Slides maken
