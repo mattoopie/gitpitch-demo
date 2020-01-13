@@ -2,5 +2,5 @@ layout: center-left
 theme: black
 highlight: dracula
 code-line-numbers: true
-theme-override: presentation/assets/PITCHME.css
+theme-override: PITCHME.css
 charts: true
