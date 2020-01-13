@@ -12,6 +12,7 @@
 * Slides maken
 * Code in slides
 * Media gebruiken
+* Andere slides includen
 
 ---
 @snap[north-west]
@@ -20,7 +21,7 @@
 
 * Markdown
 * Thema's
-* Items
+* Op ontwikkelaars gericht
 ---
 @snap[north-west]
 ## Slides maken
@@ -160,3 +161,9 @@ Een grafiek maken
 ```
 
 ---?include=src/include.md
+
+---
+
+---
+
+---
