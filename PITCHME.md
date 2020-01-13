@@ -18,7 +18,7 @@
 ## Slides maken
 @snapend
 
-```markdown
+```
 @snap[north-west]
 ## Inhoud
 @snapend
@@ -35,4 +35,6 @@
 ---?code=PITCHME.md&lang=markdown&title=Code in slides
 @[21-31](Direct in de presentatie)
 @[33](Uit een apart bestand)
+
+---
 
