@@ -60,3 +60,20 @@ Een diff uit Git tonen
 
 @diff[span-100](23821e47df60bb851d553f9e66a715b83b64da0b)
 
+---
+@snap[north-west]
+## Media gebruiken
+@snapend
+
+```text
+![Video](https://www.youtube.com/embed/3Kyre8R0DtI)
+```
+
+@snap[south span-100]
+Een video van YouTube afspelen
+@snapend
+
+---
+![Video](https://www.youtube.com/embed/3Kyre8R0DtI)
+
+---
