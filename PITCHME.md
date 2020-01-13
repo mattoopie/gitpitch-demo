@@ -19,9 +19,16 @@
 @snapend
 
 ```text
+---
+
 @snap[north-west]
-## Slides maken
+## Een slide
 @snapend
+
+* Lijst
+* Met
+* Items
+
 ```
 
 ---
