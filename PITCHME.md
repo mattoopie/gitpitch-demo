@@ -12,9 +12,27 @@
 * Code in slides
 * ...
 
----?code=PITCHME.md&lang=markdown&title=Slides maken
-@[7-13](Specifiek deel van bestand)
+---
+
+@snap[north-west]
+## Slides maken
+@snapend
+
+```markdown
+@snap[north-west]
+## Inhoud
+@snapend
+
+* Slides maken
+* Code in slides
+* ...
+
+---
+```
 
 ---?code=src/example.kt&lang=kotlin&title=Code in slides
 
 ---?code=PITCHME.md&lang=markdown&title=Code in slides
+@[21-31](Direct in de presentatie)
+@[33](Uit een apart bestand)
+
