@@ -37,6 +37,14 @@
 ```
 ---
 @snap[north-west]
+## Een slide
+@snapend
+
+* Lijst
+* Met
+* Items
+---
+@snap[north-west]
 ## Code in slides
 @snapend
 
@@ -97,7 +105,7 @@ Een video van YouTube afspelen
   "labels": ["January"," February"," March"," April"," May"," June"," July"],
   "datasets": [
    {
-    "data":[6,5,7,8,9,12,18],
+    "data":[7,4,7,3,9,12,18],
     "label":"A",
     "backgroundColor":"rgba(20,20,220,.9)"
    },
@@ -125,7 +133,7 @@ Een grafiek maken
   "labels": ["January"," February"," March"," April"," May"," June"," July"],
   "datasets": [
    {
-    "data":[6,5,7,8,9,12,18],
+    "data":[7,4,7,3,9,12,18],
     "label":"A",
     "backgroundColor":"rgba(20,20,220,.9)"
    },
@@ -140,3 +148,15 @@ Een grafiek maken
 }
 -->
 </canvas>
+
+---
+
+@snap[north-west]
+## Andere slides includen
+@snapend
+
+```text
+?include=src/include.md
+```
+
+---?include=src/include.md
