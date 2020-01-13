@@ -2,8 +2,8 @@
     white-space: pre-wrap;
 }
 
-img {
-    border: unset;
-    background: unset;
-    box-shadow: unset;
+.clean-img {
+    border: none;
+    background: none;
+    box-shadow: none;
 }
