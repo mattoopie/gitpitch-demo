@@ -86,7 +86,24 @@ Een video van YouTube afspelen
 
 ---
 <canvas data-chart="bar">
-Month,January,February,March,April,May,June,July
-A    ,6      ,5       ,7    ,8    ,9  ,12  ,18
-B    ,6      ,5       ,7    ,8    ,3  ,2   ,1
+<!--
+{
+ "data": {
+  "labels": ["January"," February"," March"," April"," May"," June"," July"],
+  "datasets": [
+   {
+    "data":[6,5,7,8,9,12,18],
+    "label":"A",
+    "backgroundColor":"rgba(20,20,220,.8)"
+   },
+   {
+    "data":[6,5,7,8,3,2,1],
+    "label":"B",
+    "backgroundColor":"rgba(120,120,220,.8)"
+   }
+  ]
+ },
+ "options": { "responsive": "true" }
+}
+-->
 </canvas>
