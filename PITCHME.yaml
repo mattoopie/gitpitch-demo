@@ -3,3 +3,4 @@ theme: black
 highlight: dracula
 code-line-numbers: true
 theme-override: presentation/assets/PITCHME.css
+charts: true

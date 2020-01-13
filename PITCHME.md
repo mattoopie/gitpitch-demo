@@ -8,12 +8,20 @@
 ## Inhoud
 @snapend
 
+* Wat is GitPitch?
 * Slides maken
 * Code in slides
-* ...
+* Media gebruiken
 
 ---
+@snap[north-west]
+## Wat is GitPitch?
+@snapend
 
+* Markdown
+* Thema's
+* Items
+---
 @snap[north-west]
 ## Slides maken
 @snapend
@@ -66,7 +74,7 @@ Een diff uit Git tonen
 @snapend
 
 ```text
-![Video](https://www.youtube.com/embed/3Kyre8R0DtI)
+[Video](https://www.youtube.com/embed/3Kyre8R0DtI)
 ```
 
 @snap[south span-100]
@@ -77,3 +85,13 @@ Een video van YouTube afspelen
 ![Video](https://www.youtube.com/embed/3Kyre8R0DtI)
 
 ---
+<canvas data-chart="bar" data-chart-src="src/data.csv">
+<!-- 
+{
+"data" : {
+"datasets" : [{ "backgroundColor": "#0f0" }, { "backgroundColor": "#0ff" } ]
+},
+"options": { "responsive": true, "scales": { "xAxes": [{ "stacked": true }], "yAxes": [{ "stacked": true }] } }
+}
+-->
+</canvas>
