@@ -18,10 +18,10 @@
 ## Slides maken
 @snapend
 
-```kotlin
-fun main() {
-
-}
+```text
+@snap[north-west]
+## Slides maken
+@snapend
 ```
 
 ---
