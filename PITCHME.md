@@ -33,7 +33,7 @@
 ---
 @diff[span-100](23821e47df60bb851d553f9e66a715b83b64da0b)
 
----?code=src/examples.md.md&lang=text&title=Code in slides
+---?code=src/examples.md&lang=text&title=Code in slides
 @[1](Uit een apart bestand inladen)
 @[3](Een diff uit Git tonen)
 
