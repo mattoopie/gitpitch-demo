@@ -85,6 +85,11 @@ Een video van YouTube afspelen
 ![Video](https://www.youtube.com/embed/3Kyre8R0DtI)
 
 ---
+@snap[north-west]
+## Media gebruiken
+@snapend
+
+```text
 <canvas data-chart="bar">
 <!--
 {
@@ -94,12 +99,40 @@ Een video van YouTube afspelen
    {
     "data":[6,5,7,8,9,12,18],
     "label":"A",
-    "backgroundColor":"rgba(20,20,220,.8)"
+    "backgroundColor":"rgba(20,20,220,.9)"
    },
    {
     "data":[6,5,7,8,3,2,1],
     "label":"B",
-    "backgroundColor":"rgba(120,120,220,.8)"
+    "backgroundColor":"rgba(250,20,20,.9)"
+   }
+  ]
+ },
+ "options": { "responsive": "true" }
+}
+-->
+</canvas>
+```
+
+@snap[south span-100]
+Een grafiek maken
+@snapend
+---
+<canvas data-chart="bar">
+<!--
+{
+ "data": {
+  "labels": ["January"," February"," March"," April"," May"," June"," July"],
+  "datasets": [
+   {
+    "data":[6,5,7,8,9,12,18],
+    "label":"A",
+    "backgroundColor":"rgba(20,20,220,.9)"
+   },
+   {
+    "data":[6,5,7,8,3,2,1],
+    "label":"B",
+    "backgroundColor":"rgba(250,20,20,.9)"
    }
   ]
  },
