@@ -89,12 +89,4 @@ Een video van YouTube afspelen
 Month,January,February,March,April,May,June,July
 A    ,6      ,5       ,7    ,8    ,9  ,12  ,18
 B    ,6      ,5       ,7    ,8    ,3  ,2   ,1
-<!-- 
-{
-"data" : {
-"datasets" : [{ "backgroundColor": "#0f0" }, { "backgroundColor": "#0ff" } ]
-},
-"options": { "responsive": true, "scales": { "xAxes": [{ "stacked": true }], "yAxes": [{ "stacked": true }] } }
-}
--->
 </canvas>
