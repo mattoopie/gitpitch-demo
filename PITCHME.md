@@ -27,21 +27,22 @@
 * Met
 * Items
 ```
-
----?code=src/example.kt&lang=kotlin&title=Code in slides
-
 ---
 @snap[north-west]
 ## Code in slides
 @snapend
 
 ```text
----?code=src/example.kt&lang=kotlin&title=Code in slides
+?code=src/example.kt&lang=kotlin&title=Syntax highlighting
+@[2](Per regel)
 ```
 
 @snap[south]
-### Uit een apart bestand inladen
+Uit een apart bestand inladen
 @snapend
+
+---?code=src/example.kt&lang=kotlin&title=Syntax highlighting
+@[2](Per regel)
 
 ---
 @snap[north-west]
@@ -53,5 +54,5 @@
 ```
 
 @snap[south]
-### Een diff uit Git tonen
+Een diff uit Git tonen
 @snapend
