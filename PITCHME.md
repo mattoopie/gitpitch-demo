@@ -12,7 +12,5 @@
 * Code in slides
 * ...
 
----
-
 ---?code=PITCHME.md&lang=markdown&title=Slides maken
-@[7-13]()
+@[7-13](Inhoud)
