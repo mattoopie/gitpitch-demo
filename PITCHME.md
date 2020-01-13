@@ -37,7 +37,7 @@
 @[2](Per regel)
 ```
 
-@snap[south]
+@snap[south span-100]
 Uit een apart bestand inladen
 @snapend
 
@@ -53,6 +53,10 @@ Uit een apart bestand inladen
 @diff[span-100](23821e47df60bb851d553f9e66a715b83b64da0b)
 ```
 
-@snap[south]
+@snap[south span-100]
 Een diff uit Git tonen
 @snapend
+---
+
+@diff[span-100](23821e47df60bb851d553f9e66a715b83b64da0b)
+
